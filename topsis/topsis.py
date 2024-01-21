@@ -63,9 +63,12 @@ def cal_topsis_score(df: pd.DataFrame, w: list, i: list, out_file: str):
     performance_score = []
     for j in range(len(s_plus)):
         performance_score.append(s_minus[j] / (s_plus[j] + s_minus[j]))
+    df = df_copy.assign(TopsisScore=performance_score)
+
+    for j in range(len(performance_score)):
+        performance_score[j] = 1 - performance_score[j]
     rank = ss.rankdata(performance_score).tolist()
 
-    df = df_copy.assign(TopsisScore=performance_score)
     df = df.assign(Rank=rank)
 
     df.to_csv(out_file, index=False)
