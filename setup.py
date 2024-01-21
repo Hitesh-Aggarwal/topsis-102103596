@@ -1,13 +1,18 @@
-from distutils.core import setup
+import setuptools
 
-setup(
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
     name="topsis-102103596",  # How you named your package folder (MyLib)
-    packages=["topsis"],  # Chose the same as "name"
+    packages=setuptools.find_packages(),  # Chose the same as "name"
     version="0.1",  # Start with a small number and increase it with every change you make
-    license="MIT",  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-    description="Calculates the topsis score",  # Give a short description about your library
     author="Hitesh Aggarwal",  # Type in your name
     author_email="haggarwal_be21@thapar.edu",  # Type in your E-Mail
+    license="MIT",  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
+    description="Calculates the topsis score",  # Give a short description about your library
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/Hitesh-Aggarwal/topsis-102103596",  # Provide either the link to your github or to your website
     download_url="https://github.com/Hitesh-Aggarwal/topsis-102103596/archive/refs/tags/v_01.tar.gz",  # I explain this later on
     keywords=[
