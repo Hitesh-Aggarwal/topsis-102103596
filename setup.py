@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="topsis-102103596",  # How you named your package folder (MyLib)
     packages=setuptools.find_packages(),  # Chose the same as "name"
-    version="0.1",  # Start with a small number and increase it with every change you make
+    version="0.2",  # Start with a small number and increase it with every change you make
     author="Hitesh Aggarwal",  # Type in your name
     author_email="haggarwal_be21@thapar.edu",  # Type in your E-Mail
     license="MIT",  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
@@ -14,7 +14,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Hitesh-Aggarwal/topsis-102103596",  # Provide either the link to your github or to your website
-    download_url="https://github.com/Hitesh-Aggarwal/topsis-102103596/archive/refs/tags/v_01.tar.gz",  # I explain this later on
+    download_url="https://github.com/Hitesh-Aggarwal/topsis-102103596/archive/refs/tags/v_02.tar.gz",  # I explain this later on
     keywords=[
         "topsis",
         "Decision Making",
