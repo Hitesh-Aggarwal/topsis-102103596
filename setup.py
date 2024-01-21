@@ -12,9 +12,8 @@ setup(
     download_url="https://github.com/Hitesh-Aggarwal/topsis-102103596/archive/refs/tags/v_01.tar.gz",  # I explain this later on
     keywords=[
         "topsis",
-        "Decision",
-        "Multi",
-        "Criteria",
+        "Decision Making",
+        "Data Analytics",
     ],  # Keywords that define your package best
     install_requires=["pandas", "numpy", "scipy"],  # I get to this in a second
     classifiers=[
