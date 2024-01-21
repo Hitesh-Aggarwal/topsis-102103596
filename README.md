@@ -24,8 +24,8 @@ where:
 #### Screenshots
 Input file: data.csv
 
-![Data.csv](https://github.com/hitesh-aggarwal/topsis-102103596/blob/master/data.png?raw=true)
+![Data.csv](https://github.com/hitesh-aggarwal/topsis-102103596/images/data.png)
 
 Output file: out.csv
 
-![Output.csv](https://github.com/hitesh-aggarwal/topsis-102103596/blob/master/out.png?raw=true)
+![Output.csv](https://github.com/hitesh-aggarwal/topsis-102103596/images/out.png)
