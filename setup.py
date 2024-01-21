@@ -9,7 +9,7 @@ setup(
     author="Hitesh Aggarwal",  # Type in your name
     author_email="haggarwal_be21@thapar.edu",  # Type in your E-Mail
     url="https://github.com/Hitesh-Aggarwal/topsis-102103596",  # Provide either the link to your github or to your website
-    download_url="https://github.com/Hitesh-Aggarwal/topsis-102103596/archive/v_01.tar.gz",  # I explain this later on
+    download_url="https://github.com/Hitesh-Aggarwal/topsis-102103596/archive/refs/tags/v_01.tar.gz",  # I explain this later on
     keywords=[
         "topsis",
         "Decision",
